@@ -30,11 +30,11 @@ public class BasicAnnotation {
     }
     @BeforeSuite
     public void beforeSuite(){
-        System.out.println("afterSuite");
+        System.out.println("beforeSuite");
     }
     @AfterSuite
     public void afterSuite(){
-        System.out.println("beforeSuite");
+        System.out.println("afterSuite");
     }
 
 

@@ -1,0 +1,7 @@
+java -jar ./moco-runner-0.11.0-stagnalone.jar http  -p 8888 -c json配置文件
+java -jar ./moco-runner-0.11.0-stagnalone.jar http  -p 8888 -c startup1.json//路径
+
+没有写方法 默认get
+127.0.0.1:8888/demo
+
+java -jar -Dfile.encoding=UTF-8 ./moco-runner-0.11.0-standalone.jar 协议类型 -p 端口号 -c json配置文件

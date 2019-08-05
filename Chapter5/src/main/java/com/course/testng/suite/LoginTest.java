@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class LoginTest {
     @Test
     public void payTest() {
-        System.out.println("Logintest这是");
+        System.out.println("登录成功了");
     }
 
     @Test(expectedExceptions = ArithmeticException.class)
