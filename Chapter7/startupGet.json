@@ -15,14 +15,13 @@
       "uri": "/getwithparam",
       "method": "get",
       "queries": {
-        "name": "huhansan",
+        "name": "jane",
         "age": "18"
-      }
-    },
-      "response": {
-        "text": "huhuansan come back"
-      }
     }
-
+    },
+    "response": {
+      "text": "这是一个with param 的get请求"
+    }
+  }
 
 ]
