@@ -1,0 +1,22 @@
+[
+  {
+    "description": "  post with header ",
+    "request": {
+      "uri": "/post/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "jane",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "jane": "success",
+        "status": "1"
+      }
+    }
+  }
+]

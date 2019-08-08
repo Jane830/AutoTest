@@ -1,0 +1,26 @@
+[
+  {
+    "description": "post request",
+    "request": {
+      "uri":"/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": " the first mock post request"
+    }
+  },
+  {
+    "description": "post with param request",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "jane",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "post with param come back"
+    }
+  }
+]
