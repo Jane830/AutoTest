@@ -16,8 +16,8 @@
     
     <listeners>
         <!--这是配置生成报告的监听-->
-       <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
-<!--        <listener class-name="com.tester.extend.demo.ExtentTestngReporterListenerOld"></listener>-->
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
+        <!--<listener class-name="com.tester.extend.demo.ExtentTestngReporterListenerOld"></listener>-->
         <listener class-name="com.tester.extend.demo.ExtentTestngReporterListener"></listener>
     </listeners>
 </suite>
