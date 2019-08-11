@@ -7,8 +7,7 @@
     },
     "response": {
       "cookies": {
-        "login": "true",
-        "status": "10000"
+        "login": "true"
       },
       "text": "congratuations , you`ve got the cookies"
     }
@@ -16,7 +15,7 @@
   {
     "description": "带cookies的get请求",
     "request": {
-      "uri": "/cookies/get",
+      "uri": "/get/with/cookies",
       "method": "get",
       "cookies": {
         "login": "true"
@@ -30,7 +29,7 @@
   {
     "description": "带cookies的post请求",
     "request": {
-      "uri": "/cookies/post",
+      "uri": "/post/with/cookies",
       "method": "post",
       "cookies": {
         "login": "true"
